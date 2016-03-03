@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<ul class="nav nav-pills">
+			<li class="active"><a data-toggle="pill" href="#home">Hitler</a></li>
+			<li><a data-toggle="pill" href="#menu1">How to be Successful</a></li>
+			<li><a data-toggle="pill" href="#menu2">What to do as a Dictator</a></li>
+		</ul>
+
+		<div class="tab-content">
+		<div id="home" class="tab-pane fade in active">
+			<h3><center>Hitler</center></h3>
+			<p><center>Hitler was one of the most successful dictators. This page will explain how he got to where he was. He is a perfect example to becoming a dictator.</center></p>
+			
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Hitler's Life In WWI</button>
+
+		<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title"><center>Hitler's Life in WWI</center></h4>
+			</div>
+			<div class="modal-body">
+				<p>Not Done Yet :P</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div id="menu1" class="tab-pane fade">
+			<h3><center>How to be Successful<center></h3>
+			<p><center>This page will explain how to be a successful dictator. While Hitler was a dictator, he made many mistakes. This page will explain all Hitlers mistakes and how to avoid making mistakes as a dictator.</center></p>
+		</div>
+		<div id="menu2" class="tab-pane fade">
+			<h3><center>What to do as a Dictator</center></h3>
+			<p><center>This page will explain what dictators do. You will need to know what you need to do so you can continue being a dictator!</center></p>
+		</div>
+		</div>
+	</body>
+</html>
